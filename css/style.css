@@ -22,9 +22,9 @@ header h1 {
 
 header h2 {
     color: #FFFFFF;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: normal;
-    margin-top: 1.5em;
+    margin-top: 1.6em;
 }
 
 .container {
@@ -47,23 +47,36 @@ header h2 {
     padding: 3em 11px 3em;
 }
 
+#description {
+    margin-top: 2em;
+}
+
 #description p {
     color: #DDDDDD;
     line-height: 1.5em;
     margin: 0 0 1em;
-    margin-top: 2em;
 }
-#credits {
+
+#description h3 {
+    color: #fff;
+    font-family: Garamond, Georgia;
+    font-size: 24px;
+}
+
+.boxy {
     background-color: #0B1928;
     border-color: #000000 #1B2C3E #1B2C3E #000000;
     border-radius: 5px;
     border-style: solid;
     border-width: 1px;
     color: #CCCCCC;
-    float: left;
-    margin-right: 2em;
-    margin-bottom: 2em;
     padding: 1em 1em 0;
+}
+
+#credits {
+    float: left;
+    margin-right: 4em;
+    margin-bottom: 4em;
     width: 220px;
     font-size: 14px;
 }
@@ -78,8 +91,47 @@ header h2 {
     padding-top: 5px;
 }
 
+.container.footer {
+    padding-bottom: 3em;
+}
+
 .container.bottom {
     background-color: #020b12;
     background-image: none;
     padding-top: 1em;
+}
+
+#bts {
+    width: 450px;
+    margin-left: 75px;
+    float: left;
+    padding-top: 3em;
+}
+
+#social {
+    float: left;
+    margin-top: 3em;
+    width: 390px;
+    text-align: center;
+}
+
+#social div {
+    margin: 1em;
+}
+#social a {
+    text-decoration: none;
+    margin: 0 0.5em;
+}
+
+.copyright {
+    border-top: 1px dotted rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.1);
+    margin-top: 2em;
+    padding-top: 1em;
+    text-align: right;
+    font-size: 0.9em;
+}
+.copyright a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.2);
 }
